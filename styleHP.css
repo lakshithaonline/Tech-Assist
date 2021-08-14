@@ -22,8 +22,13 @@ html{
     font-size:62.5%;
     overflow-x: hidden;
 }
+section{
+    padding: 0 7%;
+    padding-top: 12rem;
+    
+}
 
-/*header */
+/*header open*/
 header #menu{
     color: lightslategray;
     font-size: 3rem;
@@ -66,6 +71,28 @@ header .heading{
 .navbar ul li a:hover{
     color: aqua;
 }
+/*header close*/
+
+.homebd .hpimg{
+    flex: 1 1 40rem;
+}
+.homebd .hpimg{
+    width: 100%;
+    
+}
+
+.homebd .content{
+    flex: 1 1 40rem;
+}
+.homebd .content h1{
+    font-size: 5rem;
+    color: #444;
+}
+.homebd .content p{
+    font-size: 1.8rem;
+    color: #666;
+    padding: 1rem 0;
+}
 
 
 
@@ -79,6 +106,7 @@ header .heading{
 
 
 
+/*header when resizing*/
 @media(max-width:768px){
     html{
         font-size:55%;
@@ -106,3 +134,4 @@ header .heading{
     }
     
 }
+/*end of resize header*/
