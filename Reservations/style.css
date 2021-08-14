@@ -122,3 +122,18 @@
 	transform: rotate(90deg);
 }
 
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	display: block;
+	text-transform: uppercase;
+}
