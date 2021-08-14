@@ -79,3 +79,7 @@
 	font-weight: 400;
 	color: #101113;
 }
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: rgba(16, 17, 19, 0.3);
+}
