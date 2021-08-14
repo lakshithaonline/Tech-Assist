@@ -51,13 +51,20 @@
 }
 
 .booking-form .form-header p {
-
+	font-size: 17px;
+	font-family: 'Alatsi';
+	text-transform: none;
+	font-weight: 100;
+	color: #808080;
 }
 
 .booking-form>form {
-
+	background-color:black;
+	padding: 30px 20px;
+	border-radius: 3px;
 }
 
 .booking-form .form-group {
-	
+	position: relative;
+	margin-bottom: 15px;
 }
