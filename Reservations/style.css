@@ -103,9 +103,22 @@
 }
 
 .booking-form select.form-control+.select-arrow {
-position: absolute;
-right: 0px;
-bottom: 6px;
-width: 32px;
-
+	position: absolute;
+	right: 0px;
+	bottom: 6px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: #101113;
+	font-size: 14px;
 }
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
