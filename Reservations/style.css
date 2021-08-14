@@ -18,3 +18,24 @@
 	background-size: cover;
 	background-position: center;
 }
+
+#booking::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	
+}
+
+.booking-form {
+	max-width: 1042px;
+	width: 800px;
+	margin: auto;
+}
+
+.booking-form .form-header {
+	text-align: left;
+	margin-bottom: 27px;
+}
