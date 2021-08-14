@@ -22,6 +22,15 @@ html{
     font-size:62.5%;
     overflow-x: hidden;
 }
+
+/*header */
+header #menu{
+    color: lightslategray;
+    font-size: 3rem;
+    cursor: pointer;
+    margin: 1rem;
+    display: none;
+}
 header{
     top: 0;
     left: 0;
@@ -36,4 +45,64 @@ header .heading{
     padding: 1rem;
     text-align: center;
     color: #293ee1;
+}
+
+/*navigation bar*/
+.navbar ul{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: var(--blue);
+    padding: 1rem;
+}
+.navbar ul li{
+    margin: 0.2 2rem;
+}
+.navbar ul li a{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    html{
+        font-size:55%;
+        
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size:50%;
+        
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+    .navbar{
+        position: fixed;
+        top: 6.2rem;
+        height: 100%;
+        width: 100%;
+        border-top:  .2rem solid rgba(0,0,0,.3);
+    }
+    
 }
