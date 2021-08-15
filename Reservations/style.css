@@ -143,3 +143,13 @@
 	text-transform: uppercase;
 }
 
+#SideParagraph h2 {
+	font-family: 'Akaya Kanadaka';font-size: 32px;
+	text-transform: none;
+	font-weight: 100;
+	color: black;
+	position: absolute;
+	margin-left: 1650px;
+	margin-top: -910px;
+	padding-right: 150px;
+}
