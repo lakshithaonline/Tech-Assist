@@ -59,7 +59,7 @@
 }
 
 .booking-form>form {
-	background-color:black;
+	background-color: slategray;
 	padding: 30px 20px;
 	border-radius: 3px;
 }
@@ -133,7 +133,7 @@
 
 .booking-form .submit-btn {
 	color: #101113;
-	background-color: #293ee1;
+	background-color: whitesmoke;
 	font-weight: 700;
 	height: 50px;
 	border: none;
