@@ -73,10 +73,18 @@ header .heading{
 }
 /*header close*/
 
-.homebd .hpimg{
+.hpimg{
+    width: 620px;
+    height: 612px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homebd .homeimage{
     flex: 1 1 40rem;
 }
-.homebd .hpimg{
+.homebd .homeimage{
     width: 100%;
     
 }
