@@ -153,3 +153,20 @@
 	margin-top: -910px;
 	padding-right: 150px;
 }
+
+#SideParagraph p {
+	font-size: 20px;
+	font-family: 'Alatsi';
+	text-transform: none;
+	font-weight: 100;
+	color: #808080;
+	position: absolute;
+	margin-left: 1650px;
+	margin-top: -860px;
+	padding-right: 150px;
+
+}
+
+#Slideshow {
+	
+}
