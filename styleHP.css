@@ -102,6 +102,7 @@ header .heading{
 .homebd .content h1{
     font-size: 5rem;
     color: #444;
+    text-align: center;
 }
 .homebd .content p{
     font-size: 1.8rem;
@@ -133,6 +134,10 @@ header .heading{
     .home .content h1{
         font-size: 4rem;
     }
+    .hpimg{
+        align-content: center;
+    }
+
 }
 @media(max-width:768px){
     html{
@@ -155,6 +160,9 @@ header .heading{
     }
     section{
         padding-top: 5rem;
+    }
+    .hpimg{
+        align-content: center;
     }
 }
 /*end of resize header*/
