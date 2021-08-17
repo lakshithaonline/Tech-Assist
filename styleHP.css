@@ -73,6 +73,13 @@ header .heading{
 }
 /*header close*/
 
+.homebd{
+    min-height: 100vh;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: space-around;
+
+}
 .hpimg{
     width: 620px;
     height: 612px;
@@ -120,6 +127,12 @@ header .heading{
         font-size:55%;
         
     }
+    .home .content{
+        text-align: center;
+    }
+    .home .content h1{
+        font-size: 4rem;
+    }
 }
 @media(max-width:768px){
     html{
@@ -140,6 +153,8 @@ header .heading{
         width: 100%;
         border-top:  .2rem solid rgba(0,0,0,.3);
     }
-    
+    section{
+        padding-top: 5rem;
+    }
 }
 /*end of resize header*/
