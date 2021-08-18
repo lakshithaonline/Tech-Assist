@@ -1,1 +1,11 @@
-
+:root{
+    --blue:#293ee1;
+}
+/*header open*/
+header #menu{
+    color: lightslategray;
+    font-size: 3rem;
+    cursor: pointer;
+    margin: 1rem;
+    display: none;
+}
