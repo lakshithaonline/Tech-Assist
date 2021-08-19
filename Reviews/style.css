@@ -7,3 +7,45 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: #7a6cff;
 }
+
+.banner {
+	font-family: 'sofia-pro', sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+	color: white;
+	text-wrap: balanced;
+	margin-top: 200px;
+	margin-left: 50px;
+}
+
+.banner p {
+	font-size: 1.15em;
+	display: block;
+    
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+  .button:hover {
+    background-color: gray;
+  }
+  
+  .display img {
+      width: 1000px;
+      height: 650px;
+      float: right;
+    margin-top: -420px;
+  }
+  
+  
