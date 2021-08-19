@@ -1,0 +1,9 @@
+element.style {
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #7a6cff;
+}
