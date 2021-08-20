@@ -185,70 +185,81 @@ header .heading{
 }
 /*animation area*/
 
+
+
 /*footer area*/
-.footer{
-	background: #333;
+footer{
+	
+	background: #111;
+	height: auto;
+	width: 100vw;
+	font-family: "Open Sans";
+	padding-top: 40px;
+	color: #fff;
+
 }
-.footer .box-container{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-.footer .box-container .box{
-	margin: 2rem;
-	flex: 1 1 30rem;
-}
-.footer .box-container .box h3{
-	font-size: 2.5rem;
-	color: #ffffff;
-}
-.footer .box-container .box p{
-	font-size: 1.4rem;
-	color: #eee;
-	padding: 1rem 0;
-}
-.footer .box-container .box a{
-	font-size: 1.8rem;
-	color: #eee;
-	padding: .4rem 0;
-	display: block;
-}
-.footer .box-container .box a:hover{
-	text-decoration: underline;
-}
-.footer .box-container .box:nth-child(2){
-	text-align: center;
-}
-.footer .box-container form{
+.footer-content{
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+
 }
-.footer .box-container form input[type="email"]{
-	height: 4.1rem;
-	width: 100%;
-	font-size: 1.7rem;
-	padding: 0 1rem;
+.footer-content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+
 }
-.footer .box-container form .btn{
-	margin-top: 0;
+.footer-content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
 }
-.footer .box-container form .btn:hover{
-	color: #333;
-	background: #ccc;
-	
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+
 }
-.footer .credit{
-	font-size: 16px;
+.socials li{
+	margin: 0 10px;
+}
+.socials a{
+	text-decoration: none;
+	color: #fff;
+}
+.socials a i{
+	font-size: 2.5rem;
+}
+.socials a:hover i{
+	color: aqua;
+}
+.footer-bottom{
+	background: #000;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+
+}
+.footer-bottom p{
+	font-size: 14px;
 	word-spacing: 2px;
 	text-transform: capitalize;
-	text-align: center;
-	background: darkcyan;
+
 }
-.footer .credit span{
+.footer-bottom span{
 	
 	opacity: .4;
 	font-weight: 200;
 }
+
+
 /*footer area*/
 
 
