@@ -104,6 +104,7 @@ header .heading{
 .section {
 	position: relative;
 	height: 100vh;
+	
 }
 
 .section .section-center {
@@ -136,6 +137,7 @@ header .heading{
 	max-width: 1042px;
 	width: 800px;
 	margin: auto;
+	margin-top: 40px;
 }
 
 .booking-form .form-header {
@@ -254,7 +256,7 @@ header .heading{
 	color: black;
 	position: absolute;
 	margin-left: 1300px;
-	margin-top: 220px;
+	margin-top: 11%;
 	padding-right: 150px;
 }
 
@@ -271,25 +273,136 @@ header .heading{
 
 }
 
-
-.footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 40px;
-  	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-  	border-radius: 5px;
-  	background-color: rgba(255, 255, 255, .15);
- 	backdrop-filter: blur(5px);
-	color: gray;
+/*footer area*/
+footer{
 	
- }
- 
-.footer h5 {
-	color: #101113;
-	text-align: center;
-	font-family: 'Alatsi';
+	background: #111;
+	height: auto;
+	width: 100vw;
+	font-family: "Open Sans";
+	padding-top: 40px;
+	color: #fff;
+	margin-top: 900px;
 
 }
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+
+}
+.footer-content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+
+}
+.footer-content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+
+}
+.socials li{
+	margin: 0 10px;
+}
+.socials a{
+	text-decoration: none;
+	color: #fff;
+}
+.socials a i{
+	font-size: 2.5rem;
+}
+.socials a:hover i{
+	color: aqua;
+}
+.footer-bottom{
+	background: #000;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+
+}
+.footer-bottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+
+}
+.footer-bottom span{
+	
+	opacity: .4;
+	font-weight: 200;
+}
+
+
+/*footer area*/
+
+/*header when resizing*/
+@media(max-width:768px){
+    html{
+        font-size:55%;
+        
+    }
+    .home .content{
+        text-align: center;
+    }
+    .home .content h1{
+        font-size: 4rem;
+    }
+    
+
+}
+@media(max-width:500px){
+    html{
+        font-size:50%;
+        
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+    .navbar{
+        position: fixed;
+        top: 6.2rem;
+        height: 100%;
+        width: 100%;
+        border-top:  .2rem solid rgba(0,0,0,.3);
+    }
+    section{
+        padding-top: 5rem;
+    }
+	.footer .box-container .box:last-child{
+		text-align: center;
+	}
+	.footer .box-container .box:last-child p{
+		font-size: 1.7rem;
+	}
+	.footer .box-container .box:last-child form{
+		flex-flow: column;
+	}
+	.footer .box-container .box:last-child form .btn{
+		margin-top: 1rem;
+		width: 100%;
+	}
+	.footer .credit{
+		font-size: 10px;
+	}
+    
+}
+/*end of resize header*/
 
