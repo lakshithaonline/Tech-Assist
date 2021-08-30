@@ -245,13 +245,28 @@ footer{
 	  position: absolute;
 	  bottom: -6px;
 	}
-	
-  
-   
+	.footer-content{
+		font-size: 12px;
+	  }
 	
   }
   
   @media (max-width: 560px){
-	
+	.footer .box-container .box:last-child{
+		text-align: center;
+	}
+	.footer .box-container .box:last-child p{
+		font-size: 1.7rem;
+	}
+	.footer .box-container .box:last-child form{
+		flex-flow: column;
+	}
+	.footer .box-container .box:last-child form .btn{
+		margin-top: 1rem;
+		width: 100%;
+	}
+	.footer .credit{
+		font-size: 10px;
+	}
   }
   
