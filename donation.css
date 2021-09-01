@@ -67,6 +67,13 @@ header .navigation a:hover{
     display: none;
   }
 
+  /*Home content*/
+  .slog{
+      margin: 0 auto;
+      font-size: 35px;
+  }
+  /*Home content*/
+
   /*footer area*/
 footer{
 	
