@@ -1,0 +1,147 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/7f2b28ef63.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <input type="checkbox" id="check">
+        <header>
+            <h2><a href="#" class="logo">Tech Assist</a></h2>
+            <div class="navigation">
+                <a href="#">Home</a>
+                <a href="Reservations/Reservations.html">Reservations</a>
+                <a href="#">Review</a>
+                <a href="About Us/About us.html">About Us</a>
+                <a href="#">Donations</a>
+            </div>
+            <label for="check">
+                <i class="fas fa-bars menu-btn"></i>
+                <i class="fas fa-times close-btn"></i>
+            </label>
+        </header>
+
+ <!--Slide show-->
+ <div class="container">
+    <div class="slide-container active">
+        <div class="slide">
+            <div class="content">
+                <h3>The Team</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+            <div class="image">
+                <img src="Assets/Team.png" alt="Team">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <h3>SDG Goals</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="btn">Lern more about SDG</a>
+            </div>
+            <div class="image">
+                <img src="Assets/SDG.png" alt="About us"  >
+            </div>
+        </div>
+    </div>
+
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <h3>Vision</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </div>
+            <div class="image">
+                <img src="Assets/vm.png" alt="vision"  >
+            </div>
+        </div>
+    </div>
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <h3>Mission</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </div>
+            <div class="image">
+                <img src="Assets/Mission.png" alt=" mission"  >
+            </div>
+        </div>
+    </div>
+        <div id="next" onclick="next()"> > </div>
+
+        <div id="prev" onclick="prev()"> < </div>
+    </div>
+    <script type="text/javascript">
+  let slides = document.querySelectorAll('.slide-container');
+  let index = 0;
+
+  function next(){
+      slides[index].classList.remove('active');
+      index = (index + 1) % slides.length;
+      slides[index].classList.add('active')
+  }
+  function prev(){
+      slides[index].classList.remove('active');
+      index = (index - 1 + slides.length) % slides.length;
+      slides[index].classList.add('active')
+  }
+
+  setInterval(next, 5000);
+</script>
+
+    <!--Slide show-->
+
+    <footer>
+        <div class="footer-content">
+            <h3>Tech Assistant</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniasdasd</p>
+            <ul class="socials">
+                <li><a href="https://donatenow.wfp.org/wfp"><i class="fas fa-bread-slice"></i></a></li>
+                <li><a href="https://water.org/donate"><i class="fa fa-hand-holding-water"></i></a></li>
+                <li><a href="https://www.wvi.org/donate"><i class="fa fa-user-graduate"></i></a></li>
+
+                <li><a href="https://wwf.org"><i class="fa fa-pagelines"></i></a></li>
+                <li><a href="https://www.oceans-alive.org/donate"><i class="fa fa-water"></i></a></li>
+                <li><a href="https://sdgs.un.org/goals"><i class="fa fa-globe-americas"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 techAssistant. designed by <span>TeamEight</span></p>
+        </div>
+    </footer>
+</div>
+</section>
+</body>
+</html>
