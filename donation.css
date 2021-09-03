@@ -114,6 +114,11 @@ header .navigation a:hover{
   color: darkcyan;
   background-color: #fff;
 }
+/*donation content*/
+.dn-content{
+  text-align: center;
+  margin-top: 25px;
+}
 
 /*Donation area*/
 
