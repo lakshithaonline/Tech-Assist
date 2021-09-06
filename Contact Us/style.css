@@ -2,3 +2,23 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: aliceblue;
 }
+
+h1{
+    margin-bottom: 30px;
+    font-family: 'Lilita One', cursive;
+    font-size: 45px
+}
+
+.lead {
+    font-family: 'Nunito', sans-serif;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
