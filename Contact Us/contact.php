@@ -17,7 +17,13 @@
                  <p class="lead">While we're good with smoke signals, there are simpler ways for us to get in touch and answer your questions</p>
 
                  <form id="contact-form" method="post" role="form">
-                     
+
+                 <div class="messages"></div>
+
+                        <div class="controls">
+                            
+                        </div>
+
                  </form>
 
                 </div>
