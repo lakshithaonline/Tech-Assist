@@ -6,6 +6,10 @@ class Contact{
     public $db="heroku_bd0c0b070629615";
     public $mysqli;
 
+    public function __construct() {
+        return $this->mysqli=new mysqli($this->host, $this->user, $this->pass, $this->db);
+    }
+
 }
 
 ?>
