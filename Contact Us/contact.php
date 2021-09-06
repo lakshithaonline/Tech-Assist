@@ -21,7 +21,7 @@
                  <div class="messages"></div>
 
                         <div class="controls">
-                            
+
                         <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
@@ -75,6 +75,15 @@
                         </div>
 
                  </form>
+                 
+            <?php 
+            if(isset($_POST['ok'])){
+                include_once 'function.php';
+                $obj=new Contact();
+                $res=$obj->contact_us($_POST);
+
+            }
+            ?>
 
                 </div>
             </div>
