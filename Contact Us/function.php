@@ -1,9 +1,9 @@
 <?php
 class Contact{
     public $host="us-cdbr-east-04.cleardb.com";
-    public $user="b0ecf54bec4eba";
-    public $pass="b5205414";
-    public $db="heroku_02106e4305f1793";
+    public $user="b08c1808084ca5";
+    public $pass="3a79ca18";
+    public $db="heroku_0af9df796b9f7d5";
     public $mysqli;
 
     public function __construct() {
