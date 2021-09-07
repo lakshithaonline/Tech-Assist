@@ -167,7 +167,7 @@ label{
       color: #fff;
   }
   .socials a i{
-      font-size: 1.8rem;
+    font-size: 1.8rem;
   }
   .socials a:hover i{
       color: aqua;
@@ -335,4 +335,5 @@ label{
             font-size: 10px;
         }
   }
-  
+  }
+}
