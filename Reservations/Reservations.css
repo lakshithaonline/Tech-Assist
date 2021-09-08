@@ -194,10 +194,10 @@ label{
   /* Responsive CSS */
   @media (max-width: 1900px) {
     .content .info img {
-      margin-left: 800px;
-      margin-top: -350px;
-      width: 900px;
-      height: 800px;
+      margin-left: 750px;
+      margin-top: -470px;
+      width: 800px;
+      height: 700px;
   
     }
    
