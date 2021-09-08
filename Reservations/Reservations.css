@@ -192,6 +192,17 @@ label{
   }
   /*footer end*/
   /* Responsive CSS */
+  @media (max-width: 1900px) {
+    .content .info img {
+      margin-left: 800px;
+      margin-top: -350px;
+      width: 900px;
+      height: 800px;
+  
+    }
+   
+  }
+
 @media (max-width: 1500px) {
 
     .content .info img {
