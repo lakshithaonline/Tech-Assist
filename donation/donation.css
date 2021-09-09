@@ -115,6 +115,13 @@ header .navigation a:hover{
   text-align: center;
   margin-top: 25px;
 }
+.dn-content span{
+  font-weight: 600;
+  font-size: 20px;
+}
+.dn-content p{
+  font-size: 17px;
+}
 
 /*Donation area*/
 
