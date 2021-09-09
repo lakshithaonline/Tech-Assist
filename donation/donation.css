@@ -89,21 +89,17 @@ header .navigation a:hover{
 .donation-sec{
   margin: 0 auto;;
 }
-.donation-sec .txt{
-  width: 275px;
-  height: 40px;
-  font-size: 20px;
-}
+
 .donation-sec .dnbtn{
   color: #fff;
-  height: 40px;
-  width: 120px;
-  font-size: 17px;
+  height: 60px;
+  width: 220px;
+  font-size: 20px;
   text-align: center;
   font-weight: 600;
   border: 3px solid darkcyan;
   background-image: linear-gradient(30deg, darkcyan 50%, transparent 50%);
-  background-size: 500px;
+  background-size: 550px;
   background-repeat: no-repeat;
   background-position: 0%;
   cursor: pointer;
@@ -264,6 +260,11 @@ footer{
 }
 
 
-@media (max-width: 560px){
-
+@media (max-width: 400px){
+  .slog h1{
+    font-size: 80px;
+  }
+  .slog span{
+    font-size: 50px
+  }
 }
