@@ -14,7 +14,7 @@ section{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: aliceblue;
+  background-color: #fff;
   background-size: cover;
   background-position: center;
 }
