@@ -61,7 +61,7 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-  background:#226A80;
+  background:#60c1df;
 }
 #check{
 	z-index: 3;
@@ -297,7 +297,7 @@ footer{
 
 /* Responsive CSS */
 
-@media (max-width: 960px){
+@media (max-width: 1285px){
 	header .navigation{
 	  display: none;
 	}
